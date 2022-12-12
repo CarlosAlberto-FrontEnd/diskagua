@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+*{    
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header{
+    background: #001637;
+}
+
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0  auto;
+}
+
+.logo {
+    width: 135px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.menu{
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;  
+    border-radius: 5px;;  
+}
+
+.menu:hover {
+    background: #FFFFFF;
+    color: #001637;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/*main*/
+
+.conteudoPricipal{
+    
+    background: linear-gradient(#c7e1f1,#87CEEB) ;
+}
+
+.cristalina {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+    
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 50px;
+}
+.cristalinaTitulo :first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;    
+}
+
+.textoCristalina {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: 1em 0;
+    text-align: justify;
+
+}
+
+.galao {
+    width: 200px;
+    float: left;
+    clear: left;    
+}
+
+.diskAgua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;    
+    padding: 1em;
+}
+
+.diskAguaTitulo {
+    border-top: 2px solid #000000;
+    padding: 1em;
+}
+
+.servicos {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;  
+    margin: 1em;
+
+}
+
+.listaServicos {
+    padding: 0.5em;
+    list-style: none;
+}
+
+
+/* Footer */
+
+.rodape {
+    background: linear-gradient(#87CEEB , #01141b ) ;
+}
+
+.rodapeInfo {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.horario thead{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 30px;
+}
+
+.horario tbody{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    
+}
+
+td{
+    padding-right:10px;
+}
+
+.logoRodape {
+    width: 400px;
+}
